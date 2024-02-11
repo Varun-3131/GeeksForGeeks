@@ -12,6 +12,7 @@ public class SecondLargest {
                 if (arr[i] > max) {
                     secondMax = max;
                     max = arr[i];
+
                 }
                 if (arr[i] > secondMax && arr[i] != max) {
                     secondMax = arr[i];
