@@ -1,3 +1,5 @@
+package Main;
+
 class MakeArrayElementEqual {
     public long minOperations(int N) {
         // Code here
