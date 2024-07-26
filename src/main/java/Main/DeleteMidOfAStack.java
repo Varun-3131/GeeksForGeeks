@@ -1,5 +1,7 @@
 package Main;
 
+import java.util.Stack;
+
 public class DeleteMidOfAStack {
     // Function to delete middle element of a stack.
     public void delete(Stack<Integer>s, int sizeOfStack, int count ){
@@ -16,10 +18,8 @@ public class DeleteMidOfAStack {
 
 
     //Function to delete middle element of a stack.
-    public void deleteMid(Stack<Integer>s,int sizeOfStack){
+    public void deleteMid(Stack<Integer> s, int sizeOfStack){
         int count = sizeOfStack;
         delete(s , sizeOfStack , count);
     }
-
-
 }
