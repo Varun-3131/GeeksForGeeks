@@ -13,3 +13,4 @@ public class CheckIfCircularLinkedList {
         return false;
     }
 }
+
